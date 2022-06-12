@@ -8,11 +8,14 @@
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/drawable/ic_person1.xml" value="0.1345" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/drawable/ic_phone.xml" value="0.1345" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_acceptefdetails.xml" value="0.21822916666666667" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_accountfound.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_add_offfre.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_changepassword.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_forget_password.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_main.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_main_chat.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_main_chat2.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_my_offre.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_offre_details.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_offre_details_accept.xml" value="0.21822916666666667" />
@@ -20,15 +23,22 @@
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_splash_screen.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_upadateprofile.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_upload_image.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/activity_verificationcode.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/drawer_header.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_channel.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_chat.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_login.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_menu.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_offre.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_profile.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/fragment_users.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/item_add.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/item_add_acc.xml" value="0.21822916666666667" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/item_email.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/item_info.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/itemquestion.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/layoutme.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/layout/user_row_layout.xml" value="0.22826086956521738" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/menu/bottom_nav.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/Tirari Achref/Desktop/android/Freelancer/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
       </map>

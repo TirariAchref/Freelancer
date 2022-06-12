@@ -82,16 +82,7 @@ class Login : AppCompatActivity() {
 
 
         callbackManager = CallbackManager.Factory.create()
-        loginButton = findViewById<LoginButton>(R.id.login_button)
-        findViewById<Button>(R.id.btnFacebook).setOnClickListener{
-            LoginManager.getInstance().logOut();
-            callbackManager
-            mainIntent = Intent(this, MainActivity::class.java)
-            loginButton?.performClick()
-            FacebookInit()
 
-
-        }
 
         /////////////////////////
         //////////////////////// GOOGLE

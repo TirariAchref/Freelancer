@@ -23,8 +23,9 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
         val client =
-            ChatClient.Builder("nueuxazsvj3k", this).logLevel(ChatLogLevel.ALL).build()
+            ChatClient.Builder("5367m27zsx2u", this).logLevel(ChatLogLevel.ALL).build()
         ChatDomain.Builder(client, this).build()
         //toolbar
         val toolbar: Toolbar = findViewById(R.id.toolbar)
@@ -48,8 +49,8 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 R.id.messenger -> {
-                    //  changeFragment(MainActivityChat(),"")
-                    //   toolbar.setTitle("Messenger");
+                    changeFragment(MainActivityChat(),"")
+                    toolbar.setTitle("Messenger");
                 }
                 R.id.miprofil -> {
                     val gson = Gson()

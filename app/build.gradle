@@ -97,4 +97,5 @@ dependencies {
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
 
     implementation "io.getstream:stream-chat-android-ui-components:4.13.0"
+
 }

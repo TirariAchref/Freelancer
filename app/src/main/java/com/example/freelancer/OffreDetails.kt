@@ -81,6 +81,7 @@ class OffreDetails : AppCompatActivity() {
         txtEditDescri.setText(description)
         txtEditTime.setText(Time)
         TextSubject.isEnabled =false
+
         btnListReponse!!.setOnClickListener {
             amainIntent = Intent(this, MainActivity::class.java)
 

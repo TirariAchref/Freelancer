@@ -1,9 +1,11 @@
 package com.example.freelancer.offrelist
 
 import android.content.Intent
+import android.graphics.Color
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.cardview.widget.CardView
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.freelancer.OffreDetails
@@ -48,7 +50,11 @@ class OffreAdapterAccept (val QuestionList: MutableList<Offre>) : RecyclerView.A
             .error(R.drawable.ic_baseline_account_circle_24).into(holder.QuestionPic)
 
 
+        holder.itemView.setBackgroundColor(Color.RED)
+        if(Status != "false"){
+            holder.itemView.setBackgroundColor(Color.GREEN)
 
+        }
 
         holder.itemView.setOnClickListener{ v ->
 
@@ -60,7 +66,9 @@ class OffreAdapterAccept (val QuestionList: MutableList<Offre>) : RecyclerView.A
             intent.putExtra("Price",price);
             intent.putExtra("Time",time);
             intent.putExtra("Status",Status);
+
             if(Status != "false"){
+
                 intent.putExtra("idAccept",idAccept);
             }
 

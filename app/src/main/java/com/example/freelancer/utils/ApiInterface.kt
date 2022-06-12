@@ -56,7 +56,7 @@ interface ApiInterface {
 
     companion object {
 
-        var BASE_URL = "http://192.168.1.137:3000/"
+        var BASE_URL = "http://192.168.1.237:3000/"
 
         fun create() : ApiInterface {
             val httpClient = OkHttpClient.Builder()

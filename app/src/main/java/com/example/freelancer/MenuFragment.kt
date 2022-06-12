@@ -36,8 +36,7 @@ class MenuFragment : Fragment() {
         txtFullName = rootView.findViewById(R.id.idfullname)
         buttonChangepassword= rootView.findViewById(R.id.UpdateProfile)
         buttonMyQuestion= rootView.findViewById(R.id.mylist)
-        buttonGoogleMap= rootView.findViewById(R.id.GoogleMap)
-        buttonQrCode= rootView.findViewById(R.id.QrCode)
+
         buttonUpdateImage= rootView.findViewById(R.id.EditImage)
         logout= rootView.findViewById(R.id.logOut)
         txtFullName.isEnabled = false
@@ -79,18 +78,7 @@ class MenuFragment : Fragment() {
 
 
         }
-        buttonGoogleMap.setOnClickListener{
-          //  val intent = Intent(activity, mapbox::class.java)
-          //  startActivity(intent)
 
-
-        }
-        buttonQrCode.setOnClickListener{
-          //  val intent = Intent(activity, qr_code::class.java)
-           // startActivity(intent)
-
-
-        }
         logout.setOnClickListener{
 
             val builder = AlertDialog.Builder(rootView.context)
@@ -98,7 +86,7 @@ class MenuFragment : Fragment() {
             builder.setMessage("Are you sure you want to logout?")
             builder.setPositiveButton("Yes"){ dialogInterface, which ->
                 this.requireActivity().getSharedPreferences(PREF_NAME, AppCompatActivity.MODE_PRIVATE).edit().clear().apply()
-                val intent = Intent(activity, MainActivity::class.java)
+                val intent = Intent(activity, Login::class.java)
                 startActivity(intent)
 
             }

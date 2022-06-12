@@ -19,6 +19,15 @@
         android:theme="@style/Theme.Freelancer"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".verificationcode"
+            android:exported="false" />
+        <activity
+            android:name=".accountfound"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivityChat"
+            android:exported="false" />
+        <activity
             android:name=".acceptefdetails"
             android:exported="false" />
         <activity
